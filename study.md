@@ -38,7 +38,7 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+Fell asleep while reading, I'll finish reading this today!
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
