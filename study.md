@@ -56,6 +56,10 @@ As it makes sense to you please write the following in JSON format:
   {"team": "Patriots"},
 ]},
 'Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road'
+{ "Has lived in two places recently": [
+  {"street": "123 Fake street"},
+  {"street": "2 Muchinfo Road"},
+]}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -63,7 +67,19 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+'Two roomates named Dave and Miller'
+{"roomates": [
+  {"name": "Dave"
+    {"fish": [
+      {"fishName": "Bob",
+      "color": "red"}
+      {"fishName": "Mr.MagicNibbles",
+      "color": "yellow",
+      "action": "bite"}
+    ]}
+  },
+  {"name": "Miller"},
+]},
 ```
 
 ## JSON Methods
@@ -71,7 +87,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+json.setElementType(roomates.addRoomate, "name", Roomate.class);
 ```
 
 ## JSON Comments
@@ -79,5 +95,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No! Don't put comments in json!
 ```
