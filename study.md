@@ -38,7 +38,24 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-Fell asleep while reading, I'll finish reading this today!
+  { "Jason has many things..."}
+'A Cat named Mr.Kitty'
+{ "cat": {
+    "name": "Mr.Kitty"
+  },
+}
+'Two roomates named Dave and Miller'
+{"roomates": [
+  {"name": "Dave"},
+  {"name": "Miller"},
+]},
+'A Love of the Red Sox, Patriots and Bruins'
+}
+{"A Love of the ": [
+  {"team": "Red Sox"},
+  {"team": "Patriots"},
+]},
+'Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road'
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
